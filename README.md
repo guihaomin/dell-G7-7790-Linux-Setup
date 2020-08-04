@@ -1,6 +1,6 @@
 # dellG7-7790-LinuxSetup
 This script is a automatic setup script to start fan control on linux at dell g7 7790 device.
-just run ```setupFreqAndFan.sh``` to setup the fan control on dell g7. You probably need to run the script each time you reboot. Your can change the file frequency.sh to limit maximum frequency.
+just run ```setupFreqAndFan.sh``` to setup the fan control on dell g7 and get the fan run at around 2000rpm, it will be overrided by the i8k profile after a while though. You probably need to run the script each time you reboot. Your can change the file frequency.sh to limit maximum frequency.
 ##### Before use
 Before running the script please follow the following steps to setup linux on dell g7
 - Setup i8kctl: https://forum.manjaro.org/t/finally-got-my-fans-working-manually-on-dell-xps-13-9370/90548
