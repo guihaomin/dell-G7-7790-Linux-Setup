@@ -9,6 +9,7 @@ Before running the script please follow the following steps to setup linux on de
 - random system freeze issue: this is usually cause by a buggy iwlwifi driver, download a new firmware can solve this issue if you encounter this.
 - Make i8kctl loads at boot time: add line line ```i8k``` to ```/etc/modules```
 - You can also messing with fan curve by adjusting this file ```/etc/i8kmon.conf```
+- The settings are tested in ubuntu 19.10
 ##### acknowledgement:
 TomFreudenberg: dell-bios-fan-control
 https://github.com/TomFreudenberg/dell-bios-fan-control
