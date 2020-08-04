@@ -7,6 +7,7 @@ Before running the script please follow the following steps to setup linux on de
 - Setup discrete graphic card: first install nvidia driver on your device and then open file /lib/modprobe.d/nvidia-kms.conf, delete or comment out the line "options nvidia-drm modeset=1" to enable kernel mode rendering.
 - make the dell bios fan control using ```make```
 - random system freeze issue: this is usually cause by a buggy iwlwifi driver, download a new firmware can solve this issue if you encounter this.
+- Make i8kctl loads at boot time: add line line ```i8k``` to ```/etc/modules```
 ##### acknowledgement:
 TomFreudenberg: dell-bios-fan-control
 https://github.com/TomFreudenberg/dell-bios-fan-control
