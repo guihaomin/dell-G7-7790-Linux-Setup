@@ -5,7 +5,7 @@ just run ```setupFreqAndFan.sh``` to setup the fan control on dell g7 and get th
 Before running the script please follow the following steps to setup linux on dell g7
 - Setup i8kctl: https://forum.manjaro.org/t/finally-got-my-fans-working-manually-on-dell-xps-13-9370/90548
 - Setup discrete graphic card: first install nvidia driver on your device and then open file /lib/modprobe.d/nvidia-kms.conf, delete or comment out the line "options nvidia-drm modeset=1" to enable kernel mode driver if you does not find nvidia kernel mode driver loading using ```dmesg```, it solves the nvidia grapic card running hot and frame loss issue.
-- make the dell bios fan control to disable bios fan control using ```make```
+- make the dell bios fan control that disables bios fan control using ```make```
 - random system freeze issue: this is usually cause by a buggy iwlwifi driver, download a new firmware can solve this issue if you encounter this.
 - Make i8kctl loads at boot time: add line line ```i8k``` to ```/etc/modules```
 - You can also messing with fan curve by adjusting this file ```/etc/i8kmon.conf```
